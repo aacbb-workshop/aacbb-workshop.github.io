@@ -637,3 +637,15 @@ ul.social-buttons {
     font-style: italic;
     font-size: 20px;
 }
+
+#scheulde-table tr td:first-child{
+    width: 25%;
+}
+
+#scheulde-table tr td{
+    text-align: left;
+}
+
+#scheulde-table {
+    margin-bottom: 20px;
+}
