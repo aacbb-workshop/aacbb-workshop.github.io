@@ -32,10 +32,10 @@
       <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="380" column="16" lean-forward="true" selection-start-line="380" selection-start-column="16" selection-end-line="380" selection-end-column="16" />
               <folding>
-                <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
+                <marker date="1506937420555" expanded="true" signature="383:397" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,7 +55,6 @@
       <find>timeline-image</find>
       <find>.timeline &gt; li.timeline-inverted &gt; .timeline-panel {</find>
       <find>.timeline:before</find>
-      <find>.timeline &gt; li .timeline-panel</find>
       <find>41</find>
       <find>.timeline &gt; li .timeline-image</find>
       <find>scheuld</find>
@@ -75,6 +74,7 @@
       <find>top</find>
       <find>#mainNav .navbar-brand {</find>
       <find>#mainNav</find>
+      <find>.timeline &gt; li .timeline-panel</find>
     </findStrings>
     <replaceStrings>
       <replace>top</replace>
@@ -212,7 +212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13896000" />
+    <option name="totallyTimeSpent" value="14361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
@@ -282,7 +282,7 @@
         <state relative-caret-position="3961">
           <caret line="233" column="16" lean-forward="false" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
           <folding>
-            <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
+            <marker date="1506937420555" expanded="true" signature="383:397" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -347,7 +347,7 @@
         <state relative-caret-position="3961">
           <caret line="233" column="16" lean-forward="false" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
           <folding>
-            <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
+            <marker date="1506937420555" expanded="true" signature="383:397" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -422,10 +422,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="380" column="16" lean-forward="true" selection-start-line="380" selection-start-column="16" selection-end-line="380" selection-end-column="16" />
           <folding>
-            <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
+            <marker date="1506937420555" expanded="true" signature="383:397" ph="{...}" />
           </folding>
         </state>
       </provider>
