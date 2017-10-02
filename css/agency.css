@@ -138,7 +138,7 @@ header.masthead {
       font-size: 20px;
       font-weight: 700;
       line-height: 50px;
-      margin-bottom: 25px;
+      margin-bottom: 0;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
@@ -157,7 +157,9 @@ header.masthead {
       line-height: 45px;
       margin-bottom: 0;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+      text-transform: uppercase; }
+
+}
 
 .service-heading {
   margin: 15px 0;
@@ -648,4 +650,14 @@ ul.social-buttons {
 
 #scheulde-table {
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .heading-subtitle {
+        font-size: 18px;
+    }
+}
+
+.heading-subtitle {
+    padding-bottom: 15px;
 }
