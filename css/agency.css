@@ -161,8 +161,7 @@ header.masthead {
 
 }
 
-.service-heading {
-  margin: 15px 0;
+.service-heading {margin: 15px 0;
   text-transform: none; }
 
 #portfolio .portfolio-item {
@@ -363,7 +362,7 @@ header.masthead {
 
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px; }
+    margin-bottom: 30px; }
     .timeline > li .timeline-panel {
       float: left;
       width: 80%;
@@ -656,8 +655,22 @@ ul.social-buttons {
     .heading-subtitle {
         font-size: 18px;
     }
+
+    .keynote-subheading {
+        font-size: 20px;
+    }
 }
 
 .heading-subtitle {
     padding-bottom: 15px;
+}
+
+.keynote-subheading {
+    font-size: 26px;
+}
+
+#program-committee-list a{
+ /*   color: #0008b8;*/
+    font-size: 22px;
+    padding-bottom: 2px;
 }
