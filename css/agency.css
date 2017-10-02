@@ -335,7 +335,7 @@ header.masthead {
         margin-top: 12px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: left;
-      padding: 0 20px 0 100px;
+      padding: 0 20px 0 50px;
       text-align: left; }
       .timeline > li.timeline-inverted > .timeline-panel:before {
         right: auto;
@@ -410,7 +410,7 @@ header.masthead {
       .timeline > li .timeline-image h4 {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
-      padding: 0 100px 20px 20px; } }
+      padding: 0 20px 20px 20px; } }
 
 .team-member {
   margin-bottom: 50px;
@@ -673,4 +673,8 @@ ul.social-buttons {
  /*   color: #0008b8;*/
     font-size: 22px;
     padding-bottom: 2px;
+}
+
+.bio-text {
+    font-size: 14px;
 }
