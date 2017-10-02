@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d7dc3c-1fa5-4dfb-9323-7dbec2bda750" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,10 +32,10 @@
       <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+            <state relative-caret-position="439">
+              <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
               <folding>
-                <marker date="1506936892159" expanded="true" signature="383:397" ph="{...}" />
+                <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,7 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>line-height</find>
       <find>event</find>
       <find>roman.</find>
       <find>team-mm</find>
@@ -77,6 +74,7 @@
       <find>img</find>
       <find>top</find>
       <find>#mainNav .navbar-brand {</find>
+      <find>#mainNav</find>
     </findStrings>
     <replaceStrings>
       <replace>top</replace>
@@ -214,7 +212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13826000" />
+    <option name="totallyTimeSpent" value="13896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
@@ -284,7 +282,7 @@
         <state relative-caret-position="3961">
           <caret line="233" column="16" lean-forward="false" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
           <folding>
-            <marker date="1506936892159" expanded="true" signature="383:397" ph="{...}" />
+            <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -349,7 +347,7 @@
         <state relative-caret-position="3961">
           <caret line="233" column="16" lean-forward="false" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
           <folding>
-            <marker date="1506936892159" expanded="true" signature="383:397" ph="{...}" />
+            <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -424,10 +422,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        <state relative-caret-position="439">
+          <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
           <folding>
-            <marker date="1506936892159" expanded="true" signature="383:397" ph="{...}" />
+            <marker date="1506936955374" expanded="true" signature="383:397" ph="{...}" />
           </folding>
         </state>
       </provider>
