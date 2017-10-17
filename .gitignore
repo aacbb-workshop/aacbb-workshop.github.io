@@ -2,4 +2,8 @@ node_modules
 .DS_Store
 .idea
 .idea\
+<<<<<<< HEAD
 .idea\workspace.xml
+=======
+.idea\workspace.xml
+>>>>>>> 62728d1c75aaee63ae484fa9ae771546a26077be
