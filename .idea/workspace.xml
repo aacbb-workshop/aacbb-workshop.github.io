@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d7dc3c-1fa5-4dfb-9323-7dbec2bda750" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
-    </list>
+    <list default="true" id="40d7dc3c-1fa5-4dfb-9323-7dbec2bda750" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -33,8 +30,8 @@
       <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="419" column="15" lean-forward="false" selection-start-line="419" selection-start-column="15" selection-end-line="419" selection-end-column="15" />
+            <state relative-caret-position="234">
+              <caret line="413" column="36" lean-forward="true" selection-start-line="413" selection-start-column="36" selection-end-line="413" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -211,12 +208,12 @@
       <updated>1506842751836</updated>
       <workItem from="1506842753086" duration="10652000" />
       <workItem from="1507029576282" duration="310000" />
-      <workItem from="1507030060995" duration="173000" />
+      <workItem from="1507030060995" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15020000" />
+    <option name="totallyTimeSpent" value="15091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1634" height="1066" extended-state="6" />
@@ -439,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="419" column="15" lean-forward="false" selection-start-line="419" selection-start-column="15" selection-end-line="419" selection-end-column="15" />
+        <state relative-caret-position="234">
+          <caret line="413" column="36" lean-forward="true" selection-start-line="413" selection-start-column="36" selection-end-line="413" selection-end-column="36" />
           <folding />
         </state>
       </provider>
