@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d7dc3c-1fa5-4dfb-9323-7dbec2bda750" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="372" column="0" lean-forward="false" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="457" column="58" lean-forward="false" selection-start-line="457" selection-start-column="58" selection-end-line="457" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -41,7 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>postdo</find>
       <find>bottom</find>
       <find>header.masthead .intro-text</find>
       <find>#conta</find>
@@ -71,6 +69,7 @@
       <find>schedule</find>
       <find>onur</find>
       <find>srinivas</find>
+      <find>sromanka</find>
     </findStrings>
     <replaceStrings>
       <replace>top</replace>
@@ -106,7 +105,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1394" />
@@ -220,15 +219,15 @@
       <workItem from="1507456059480" duration="166000" />
       <workItem from="1516004223675" duration="72000" />
       <workItem from="1517127445059" duration="28000" />
-      <workItem from="1517127496929" duration="147000" />
+      <workItem from="1517127496929" duration="769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15406000" />
+    <option name="totallyTimeSpent" value="16028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
+    <frame x="54" y="-8" width="1394" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -489,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="372" column="0" lean-forward="false" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="457" column="58" lean-forward="false" selection-start-line="457" selection-start-column="58" selection-end-line="457" selection-end-column="58" />
           <folding />
         </state>
       </provider>
