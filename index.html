@@ -50,6 +50,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
             </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#photos">Photos</a>
+              </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
             </li>
@@ -439,11 +442,22 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4><a href="http://www.cs.bilkent.edu.tr/~calkan/">Can Alkan, Bilkent University</a></h4>
-                                <h3 class="keynote-subheading">"Addressing Computational Burden to Realize Precision Medicine"</h3>
+                                <h3 class="keynote-subheading">"Addressing Computational Burden for Low-Priority Genome Analyses                                    "</h3>
                                 <h5 class="subheading">15:30-16:10</h5>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted padding-bottom-15"><strong>Talk abstract: </strong> TBD</p>
+                                <p class="text-muted padding-bottom-15"><strong>Talk abstract: </strong>
+                                    The main computational bottleneck of HTS data analysis is to map the reads to a reference genome, for which clusters are typically used.
+                                    However, building clusters large enough to handle hundreds of petabytes of data is infeasible.
+                                    Additionally, the reference genome is also periodically updated to fix errors and include newly sequenced insertions, therefore in many large scale genome projects the reads are realigned to the new reference.
+                                    Therefore, we need to explore volunteer grid computing technologies to help ameliorate the need for large clusters.
+                                    However, since the computational demands of HTS read mapping is substantial, and the turnaround of analysis should be fast, we also need a method to motivate volunteers to dedicate valuable resources.
+                                    <br>
+                                    For this purpose, we propose to merge distributed read mapping techniques with the popular cryptocurrency protocols.
+                                    Cyryotocurrencies such as Bitcoin calculate a value (called nonce) to ensure new block (i.e. “money”) creations are limited in the system, however, this calculation serves no other practical purpose.
+                                    Our solution (Coinami) replaces nonce with a token signed by an authority that can be acquired by returning the alignment results assigned by the authority.
+                                    Authorities have two main tasks in our system: 1) inject new problem sets (i.e. “alignment problems”) into the system, and 2) check for the validity of the results to prevent counterfeit
+                                </p>
                                 <!--<p class="text-muted"><strong>Short speaker bio: </strong> TBD</p>-->
 
                             </div>
@@ -453,6 +467,17 @@
             </div>
         </div>
       </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="padding-bottom-15">Photos from Vienna</h2>
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Organizers -->
