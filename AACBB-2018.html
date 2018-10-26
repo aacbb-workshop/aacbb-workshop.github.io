@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
+
+    <title>AACBB - Workshop on Accelerator Architecture for Computational Biology and Bioinformatics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Back to top</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#cfp">Call for Participation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#program-committee">Program Committee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://hpca2018.ece.ucsb.edu/" target="_blank">HPCA 2018</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">HPCA 2018 Workshop on</div>
+                <div class="intro-heading">Accelerator Architecture in <br> Computational Biology and Bioinformatics</div>
+
+            </div>
+            <h3 class="heading-subtitle">February 24th, 2018</h3>
+            <h3 class="heading-subtitle">Vienna, Austria</h3>
+        </div>
+    </header>
+
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+            <h3 class="about-text">Over the last decade, the advent of high-throughput sequencing techniques brought an exponential growth in biosequence database sizes. With increased throughput demand and popularity of computational biology tools, reducing time-to-solution during computational analysis has become a significant challenge in the path to scientific discovery.<br>
+                <br>Conventional computer architecture is proven to be inefficient for computational biology and bioinformatics tasks. For example, aligning even several hundred DNA or protein sequences using progressive multiple alignment tools consumes several CPU hours on high performance computer. Hence, computational biology and bioinformatics rely on hardware accelerators to allow processing to keep up with the increasing amount of data generated from biology applications.<br>
+                <br>    In a typical application, dominant portion of the runtime is spent in a small number of computational kernels, making it an excellent target for hardware acceleration. The combination of increasingly large datasets and high performance computing requirements make computational biology prime candidate to benefit from accelerator architecture research. Potential directions include 3D integration, near-data processing, automata processing, associative processing and reconfigurable architectures.<br>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cfp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading text-center">Call For Participation</h2>
+                    <h3 class="about-text">
+                        This workshop focuses on architecture and design of hardware accelerators for computational biology and bioinformatics problems.
+                        The schedule has 4 invited talks, 13 paper presentations.
+                        Presentation topics cover the following:
+                    </h3>
+                    <ul>
+                        <li>Impact of bioinformatics and biology applications on computer architecture research</li>
+                        <li>Bioinformatics and computational biology accelerator architecture and design</li>
+                        <li>3D memory-logic stack based accelerators</li>
+                        <li>Automata processing in bioinformatics and computational biology applications</li>
+                        <li>Associative processing in bioinformatics and computational biology applications</li>
+                        <li>Near-data (in-memory) acceleration bioinformatics and computational biology applications</li>
+                        <li>Emerging memory technologies and their impact on bioinformatics and computational biology</li>
+                        <li>Embedded and reconfigurable architectures</li>
+                        <li>Field programmable logic based accelerators</li>
+                        <li>Bioinformatics and computational biology-inspired hardware/software trade-offs</li>
+                    </ul>
+
+                    <!--<h2>Submission Guidelines</h2>
+                    <h5 class="padding-bottom-10">Interested authors are encouraged to submit papers (2-5 pages) through EasyChair:
+                        <a href="https://easychair.org/conferences/?conf=aacbb2018">https://easychair.org/conferences/?conf=aacbb2018</a>
+                    </h5>
+                    <h6>For a PDF version of the CFP click here: <a href="img/AACBB.Call.for.Papers.pdf" target="_blank">Download CFP</a></h6>
+                    <p>All papers will be evaluated based on their relation to the subject, novelty, fundamental insights, experimental evaluation, and potential for long-term impact.</p>
+                    <p>The full version should be a PDF file in HPCA24 submission format. For formatting instructions please refer to:
+                        <a href="http://hpca2018.ece.ucsb.edu/pages/guidelines_for_submission.html">HPCA Guidelines for Submission</a>
+                    </p>
+
+                    <h2>Important Dates</h2>
+                    <h5>Submission deadline: <del>November 30, 2017.</del>
+                        <del>December 15, 2017.</del>
+                        <u>Monday, December 18, 2017</u> (extended due to a special request).</h5>
+                    <h5>Notification by: <u>December 21, 2017.</u></h5>
+                    -->
+
+                    <h4>The complete schedule can be found <a href="#schedule">below</a></h4>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program-committee">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-lg-8 ">
+                    <h2 class="section-heading text-center">Program Committee</h2>
+                    <ul id="program-committee-list">
+                        <li><a href="http://www.eecs.wsu.edu/~ananth/">Ananth Kalyanaraman, WSU</a></li>
+                        <li><a href="http://www.staff.uni-mainz.de/schmi033/">Bertil Schmidt, University of Mainz</a></li>
+                        <li><a href="http://www.cs.bilkent.edu.tr/~calkan/">Can Alkan, Bilkent University</a></li>
+                        <li><a href="http://www.cs.rochester.edu/~ipek/Home.html">Engin Ipek, University of Rochester</a></li>
+                        <li><a href="http://vast.cs.ucla.edu/people/faculty/jason-cong">Jason Cong, UCLA</a></li>
+                        <li><a href="http://lph.ece.utexas.edu/merez/MattanErez/Home">Mattan Erez, UT Austin</a></li>
+                        <li><a href="http://www.ece.virginia.edu/faculty/stan.html">Mircea Stan, UVA</a></li>
+                        <li><a href="https://people.inf.ethz.ch/omutlu/">Onur Mutlu, ETH/CMU</a></li>
+                        <li><a href="http://webee.technion.ac.il/~ran/">Ran Ginosar, Technion</a></li>
+                        <li><a href="https://www.cc.gatech.edu/~saluru/">Srinivas Aluru, Georgia Tech</a></li>
+                        <li><a href="http://www.ece.ucsb.edu/~yuanxie/">Yuan Xie, UCSB</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="schedule">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Schedule</h2>
+          </div>
+        </div>
+        <div class="row padding-bottom-20">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <table id="scheulde-table" class="table-striped table-responsive table-hover">
+                    <tr>
+                        <th style="width:120px"></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>8:30 - 8:40</td>
+                        <td>Opening Remarks</td>
+                    </tr>
+                    <tr>
+                        <td>8:40 - 9:20</td>
+                        <td><strong>Keynote 1: Onur Mutlu (ETH, CMU)
+                            <br><i>“Accelerating Genome Analysis: A Primer on an Ongoing Journey”</i></strong></td>
+                    </tr>
+                    <!-- Paper session 1 (2 regular papers) -->
+                    <tr>
+                        <td>09:20 - 09:40</td>
+                        <td>Mohammed Alser+, Hasan Hassan*, Akash Kumar&, Onur Mutlu* and Can Alkan+ (+Bilkent Univ., *ETH Zurich, &TU Dresden)
+                            <br><i>Exploring Speed/Accuracy Trade-offs</i></td>
+                    </tr>
+                    <tr>
+                        <td>09:20 - 09:40</td>
+                        <td>Lisa Wu, Frank Nothaft, Brendan Sweeney, David Bruns-Smith, Sagar Karandikar, Johnny Le, Howard Mao, Krste Asanovic, David Patterson and Anthony Joseph (UC Berkeley)
+                            <br><i>Accelerating Duplicate Marking In The Cloud</i></td>
+                    </tr>
+
+                    <tr><td><br></td><td><br></td></tr>
+                    <tr>
+                        <td>10:00 - 10:30</td>
+                        <td>Coffee break</td>
+                    <tr><td><br></td><td><br></td></tr>
+
+                        <td>10:30 - 11:10</td>
+                        <td><strong>Invited Talk: Bertil Schmidt (JGU Mainz)
+                            <br><i>“Next-Generation Sequencing: Big Data meets High Performance Computing Architectures”</i></strong></td>
+                    </tr>
+
+                    <!-- Paper session 2 (3 regular papers) -->
+                    <tr>
+                        <td>11:10 - 11:30</td>
+                        <td>Wenqin Huangfu+, Zhenhua Zhu*, Tianqi Tang+, Xing Hu+, Yu Wang* and Yuan Xie+ (+UCSB, *Tsinghua University)
+                            <br><i>GAME: GPU Acceleration of Metagenomics Clustering</i></td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 11:50</td>
+                        <td>Jose M. Herruzo+, Sonia Gonzalez-Navarro+, Pablo Ibañez*, Victor Viñals*, Jesus Alastruey* and Oscar Plata+ (+Univ. of Malaga, *Univ. of Zaragoza)
+                            <br><i>Exact Alignment with FM-index on the Intel Xeon Phi Knights Landing Processor</i></td>
+                    </tr>
+                    <tr>
+                        <td>11:50 - 12:10</td>
+                        <td>Zheming Jin and Kazutomo Yoshii (ANL)
+                            <br><i>Optimizations of Sequence Alignment on FPGA: A Case Study of Extended Sequence Alignment</i></td>
+                    </tr>
+
+                    <tr><td><br></td><td><br></td></tr>
+                    <tr>
+                        <td>12:10 - 13:30</td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr><td><br></td><td><br></td></tr>
+
+                    <tr>
+                        <td>13:30 - 14:10</td>
+                        <td><strong>Keynote 2: Srinivas Aluru (Georgia Tech)
+                            <br><i>“Automata Processor and its Applications in Bioinformatics”</i></strong></td>
+                    </tr>
+
+                    <!-- Paper session 3 (3 regular papers) -->
+                    <tr>
+                        <td>14:10 - 14:30</td>
+                        <td>Tommy Tracy Ii, Jack Wadden, Kevin Skadron and Mircea Stan (UVA)
+                            <br><i>Streaming Gap-Aware Seed Alignment on the Cache Automaton</i></td>
+                    </tr>
+                    <tr>
+                        <td>14:30 - 14:50</td>
+                        <td>Roman Kaplan, Leonid Yavits and Ran Ginosar (Technion)
+                            <br><i>Processing-in-Storage Architecture for Large-Scale Biological Sequence Alignment</i></td>
+                    </tr>
+                    <tr>
+                        <td>14:50 - 15:10</td>
+                        <td>Xueqi Li, Guangming Tan, Yuanrong Wang and Ninghui Sun (ICT)
+                            <br><i>The Genomic Benchmark Suite: Characterization and Architecture Implications</i></td>
+                    </tr>
+
+                    <tr><td><br></td><td><br></td></tr>
+                    <tr>
+                        <td>15:10 - 15:30</td>
+                        <td>Coffee break</td>
+                    </tr>
+                    <tr><td><br></td><td><br></td></tr>
+
+
+                    <tr>
+                        <td>15:30 - 16:10</td>
+                        <td><strong>Invited Talk: Can Alkan (Bilkent University)
+                            <br><i>"Addressing Computational Burden to Realize Precision Medicine"</i></strong></td>
+                    </tr>
+
+                    <!-- Paper session 4 (2 regular papers) -->
+                    <tr>
+                        <td>16:10 - 16:30</td>
+                        <td>Sergiu Mosanu and Mircea Stan (UVA)
+                            <br><i>Burrows-Wheeler Short Read Aligner on AWS EC2 F1</i></td>
+                    </tr>
+                    <tr>
+                        <td>16:30 - 16:50</td>
+                        <td>Angélica Alejandra Serrano-Rubio, Amilcar Meneses-Viveros, Guillermo B. Morales-Luna and Mireya Paredes-López (CINVESTAV-IPN)
+                            <br><i>Towards BIMAX: Binary Inclusion-MAXimal parallel implementation for gene expression analysis</i></td>
+                    </tr>
+
+
+                    <tr><td><br></td><td><br></td></tr>
+                    <tr>
+                        <td>16:50 - 17:00</td>
+                        <td>Short break</td>
+                    </tr>
+                    <tr><td><br></td><td><br></td></tr>
+
+                    <!-- Paper session 3 (3 regular papers) -->
+                    <tr>
+                        <td>14:10 - 14:30</td>
+                        <td>Meysam Taassori+, Anirban Nag+, Keeton Hodgson+, Ali Shafiee* and Rajeev Balasubramonian+ (+Univ. of Utah, *Samsung Electronics)
+                            <br><i>Memory: The Dominant Bottleneck in Genomic Workloads</i></td>
+                    </tr>
+                    <tr>
+                        <td>14:30 - 14:50</td>
+                        <td>Meysam Roodi and Andreas Moshovos (Univ. of Toronto)
+                            <br><i>Gene Sequencing: Where Time Goes</i></td>
+                    </tr>
+                    <tr>
+                        <td>14:50 - 15:10</td>
+                        <td>Calvin Bulla, Lluc Alvarez and Miquel Moreto (BSC)
+                            <br><i>Are Next-Generation HPC Systems Ready for Population-level Genomics Data Analytics?</i></td>
+                    </tr>
+
+                    <tr><td><br></td><td><br></td></tr>
+                    <tr>
+                        <td>17:45 - 17:50</td>
+                        <td>Closing remarks</td>
+                    </tr>
+                    <tr><td><br></td><td><br></td></tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <h4>Social Event</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>18:15</strong></td>
+                        <td>Bus leaves to social event (Heurigen)</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+                <h2 class="padding-bottom-15">Keynote Talks</h2>
+                <ul class="timeline">
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/speakers/omutlu.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><a  href="https://people.inf.ethz.ch/omutlu/">Onur Mutlu, CMU / ETH Zurich</a></h4>
+                                <h3 class="keynote-subheading">“Accelerating Genome Analysis: A Primer on an Ongoing Journey”</h3>
+                                <h5 class="subheading">8:40 - 9:20</h5>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted padding-bottom-15"><strong>Talk abstract: </strong> TBD</p>
+                                <!--<p class="text-muted bio-text"><strong>Short bio: </strong> Onur Mutlu is a Full Professor of Computer Science at ETH Zurich. He previously held the William D. and Nancy W. Strecker Early Career Professorship at Carnegie Mellon University, and is also a faculty member there. His current broader research interests are in computer architecture, systems, and bioinformatics. He is especially interested in interactions across domains and between applications, system software, compilers, and microarchitecture, with a major current focus on memory and storage systems. He obtained his PhD and MS in ECE from the University of Texas at Austin and BS degrees in Computer Engineering and Psychology from the University of Michigan, Ann Arbor. His industrial experience spans starting the Computer Architecture Group at Microsoft Research (2006-2009), and various product and research positions at Intel Corporation, Advanced Micro Devices, and VMware. He received the inaugural IEEE Computer Society Young Computer Architect Award, the inaugural Intel Early Career Faculty Award, faculty partnership awards from various companies, and a healthy number of best paper or "Top Pick" paper recognitions at various computer systems and architecture venues. His computer architecture course lectures and materials are freely available on YouTube, and his research group makes software artifacts freely available online.</p>-->
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/speakers/Srinivas.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><a href="https://www.cc.gatech.edu/~saluru/">Srinivas Aluru, Georgia Tech</a></h4>
+                                <h3 class="keynote-subheading">“Automata Processor and its Applications in Bioinformatics”</h3>
+                                <h5 class="subheading">13:30-14:10</h5>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted padding-bottom-15"><strong>Talk abstract: </strong>
+                                    This talk will introduce the Micron Automata Processor (AP), a novel computing architecture that enables massively parallel execution of numerous non-deterministic finite automata.
+                                    The processor inspires a new programming paradigm of solving problems using complex pattern matching engines executed over streaming data.
+                                    The first part of this talk will focus on the processor characteristics, programming and execution environment, and design principles we discovered that are of value in developing applications on the AP.
+                                    The second part will feature my group's research on developing bioinformatics algorithms for the AP including database search and motif detection.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="padding-bottom-15 padding-top-40">Invited Talks</h2>
+                <ul class="timeline">
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/speakers/Bertil.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><a  href="http://www.staff.uni-mainz.de/schmi033/">Bertil Schmidt, JGU Mainz</a></h4>
+                                <h3 class="keynote-subheading">“Next Generation Sequencing: Big Data meets High Performance Computing Architectures”</h3>
+                                <h5 class="subheading">10:30-11:10</h5>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted padding-bottom-15"><strong>Talk abstract: </strong>
+                                    The progress of NGS has a major impact on medical and genomic research.
+                                    This high-throughput technology can now produce billions of short DNA fragments in excess of a few Terabytes of data in a single run.
+                                    This leads to massive datasets used by a wide range of applications including personalized cancer treatment and precision medicine.
+                                    In addition to the hugely increased throughput, the cost of using high-throughput technologies has been dramatically decreasing.
+                                    Low sequencing cost of around US$1K per genome has now rendered large population-scale projects feasible.
+                                    However, in order to make effective use of the produced data, the design of big data algorithms and their efficient implementation on modern HPC systems is required.
+                                    In this talk, I will present the design of scalable algorithms for metagenomic read classification and for massively parallel hash maps on multi-GPU nodes.
+
+                                </p>
+                                <!--<p class="text-muted"><strong>Short speaker bio: </strong> TBD</p>-->
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/speakers/Can.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><a href="http://www.cs.bilkent.edu.tr/~calkan/">Can Alkan, Bilkent University</a></h4>
+                                <h3 class="keynote-subheading">"Addressing Computational Burden to Realize Precision Medicine"</h3>
+                                <h5 class="subheading">15:30-16:10</h5>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted padding-bottom-15"><strong>Talk abstract: </strong> TBD</p>
+                                <!--<p class="text-muted"><strong>Short speaker bio: </strong> TBD</p>-->
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organizers -->
+    <section class="bg-light" id="organizers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Workshop Organizers</h2>
+            <h3 class="padding-bottom-15 text-muted">From Technion, Israel Institute of Technology</h3>
+          </div>
+        </div>
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/Leonid.jpg" alt="">
+              <h4>Leonid Yavits</h4>
+              <p class="oranizer-email">leonid.yavits@nububbles.com</p>
+                <p class="text-left"><strong>Short bio:</strong> Leonid received his MSc and PhD in Electrical Engineering from the Technion. After graduating, he co-founded VisionTech where he co-designed a single chip MPEG2 codec. Following VisionTech’s acquisition by Broadcom, he co-founded Horizon Semiconductors where he co-designed a Set Top Box on chip for cable and satellite TV. <br>
+                    Leonid is a postdoc fellow in Electrical Engineering in the Technion. He co-authored a number of patents and research papers on SoC and ASIC. His research interests include non von Neumann computer architectures and processing in memory</p>
+            </div>
+          </div>
+            <!--<div class="col-sm-2"></div>-->
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/Roman.png" alt="">
+              <h4>Roman Kaplan</h4>
+              <p class="oranizer-email">romankap@gmail.com</p>
+                <p class="text-left"><strong>Short bio:</strong>
+                    Roman received his BSC and MSc from the faculty of Electrical Engineering, Technion, Israel in 2009 and 2015, respectively. He is now a PhD candidate in the same faculty under the supervision of Prof. Ran Ginosar. <br>
+                    Roman's research interests are parallel computer architectures, in-data processing, accelerators for machine learning and big data, and novel computer architectures for bioinformatics applications.
+                </p>
+
+            </div>
+          </div>
+        </div>
+        <!--<div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          </div>
+        </div>-->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <!--
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Contact Us</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; AACBB 2018</span>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.js"></script>
+
+  </body>
+
+</html>
