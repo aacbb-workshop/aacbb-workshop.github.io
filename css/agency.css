@@ -687,3 +687,8 @@ ul.social-buttons {
 .bio-text {
     font-size: 14px;
 }
+
+#photos img.img-fluid {
+  height: auto;
+}
+
